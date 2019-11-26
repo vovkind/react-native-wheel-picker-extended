@@ -30,6 +30,7 @@ class WheelCurvedPicker extends React.Component {
     /**
      * Picker PropTypes
      */
+    //COMMENTED OUT DUE BUILD ISSUE
     /*static propTypes = {
         ...View.propTypes,
         data: PropTypes.array,
@@ -104,10 +105,11 @@ class WheelCurvedPicker extends React.Component {
  * WheelCurvedPicker.Item
  */
 class Item extends React.Component {
-    propTypes: {
+    //COMMENTED OUT DUE BUILD ISSUE
+    /*static propTypes = {
         value: PropTypes.any, // string or integer basically
         label: PropTypes.string,
-    };
+    };*/
 
     /**
      * These items don't get rendered directly.
