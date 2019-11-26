@@ -1,7 +1,7 @@
 'use strict';
 
 import React from 'react';
-import PropTypes from 'prop-types'
+import PropTypes from 'prop-types';
 import {View, ColorPropType, requireNativeComponent} from 'react-native';
 
 const WheelCurvedPickerNativeInterface = {
@@ -30,7 +30,7 @@ class WheelCurvedPicker extends React.Component {
     /**
      * Picker PropTypes
      */
-    static propTypes = {
+    /*static propTypes = {
         ...View.propTypes,
         data: PropTypes.array,
         textColor: ColorPropType,
@@ -41,7 +41,7 @@ class WheelCurvedPicker extends React.Component {
         onValueChange: PropTypes.func,
         selectedValue: PropTypes.any,
         selectedIndex: PropTypes.number,
-      };
+      };*/
 
     /**
      * default props
