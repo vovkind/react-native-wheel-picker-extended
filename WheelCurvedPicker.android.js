@@ -30,7 +30,7 @@ class WheelCurvedPicker extends React.Component {
     /**
      * Picker PropTypes
      */
-    propTypes: {
+    static propTypes = {
         ...View.propTypes,
         data: PropTypes.array,
         textColor: ColorPropType,
@@ -41,7 +41,7 @@ class WheelCurvedPicker extends React.Component {
         onValueChange: PropTypes.func,
         selectedValue: PropTypes.any,
         selectedIndex: PropTypes.number,
-    };
+      };
 
     /**
      * default props
